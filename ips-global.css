@@ -1,0 +1,349 @@
+header#top .sf-menu li ul li a, #header-secondary-outer nav > ul > li > a, #header-secondary-outer ul ul li a, #header-outer .widget_shopping_cart .cart_list a {
+    font-size: 20px!important;
+    line-height: 24px!important;
+}
+
+/* header menu logo margin on the left */
+#header-outer[data-format="menu-left-aligned"] .row .col.span_3 {
+    margin-left: 35px!important;
+}
+
+/*header menu button margin on the right on desktop */
+body.material #header-outer[data-full-width="true"]:not([data-format="left-header"]) header#top nav >ul.buttons {
+    margin-right: 50px!important;
+}
+
+@media only screen and (max-width: 1000px) and (min-width: 1px) {
+   #header-outer[data-format="menu-left-aligned"] .row .col.span_3 {
+        margin-left: 0px!important;
+    } 
+}
+
+.single #page-header-bg #single-below-header >span { 
+    font-family: ttnorms-regular!important;
+    font-size: 20px!important;
+}
+
+#footer-outer .row {
+    padding-top: 25px!important;
+    padding-bottom: 0px!important;
+}
+
+#footer-outer .widget {
+    margin-bottom: 0px!important;
+}
+
+.related-posts[data-style=material] .grav-wrap {
+    font-family: ttnorms-regular;
+    font-size: 25px!important;
+}
+#footer-outer #copyright {
+    padding-bottom: 25px!important;
+    padding-top: 0px!important;
+}
+
+#sidebar div.widget {
+    margin-bottom: 20px!important;
+}
+
+#sidebar>div {
+    margin-bottom: 20px!important;
+}
+
+div.wpforms-container-full .wpforms-form .wpforms-field {
+    padding: 2px 0!important;
+    clear: both;
+}
+
+#sidebar .widget input[type=text] {
+    font-family: ttnorms-light;
+    font-size: 16px;
+}
+
+div.wpforms-container-full .wpforms-form textarea.wpforms-field-medium {
+    font-family: ttnorms-light;
+    font-size: 16px;
+}
+
+div.wpforms-container-full .wpforms-form button[type=submit] {
+    border: 0px!important;
+    background-color: #000000!important;
+    font-family: ttnorms-regular;
+    font-size: 12px!important;
+    color: #ffffff;
+}
+
+/* Footer IPS logo replace for high resolution display */
+
+@media only screen and (min--moz-device-pixel-ratio: 2), only screen and (-o-min-device-pixel-ratio: 2/1), only screen and (-webkit-min-device-pixel-ratio: 2), only screen and (min-device-pixel-ratio: 2) {
+    img.alignnone.size-full.wp-image-288 {
+        background: url(/wp-content/uploads/2019/03/IPS-White-footer-logo-retina.png) no-repeat;
+        background-size: 160px 160px;
+    }
+}
+
+.wpforms-confirmation-container-full {
+	background:#ffffff;
+	border:0px!important;
+	font-family: ttnorms-regular; color: #000000;
+	font-size: 20px;
+}
+
+div[data-style=minimal] .toggle h3 a {
+    font-family: ttnorms-bold;
+    color: #A4AEB6;
+}
+
+p, ul li, ol li { 
+    font-family: 'athelas', serif;
+    font-style: normal; 
+    font-weight: 400; 
+}
+
+body header#top nav > ul > li.megamenu > ul > li { 
+    width: 10%!important; 
+}
+
+body[data-dropdown-style=minimal][data-megamenu-width=full-width] header#top nav>ul>li.megamenu>ul>li {
+    padding-right: 10px!important;
+    width: 10%!important;
+}
+
+div.wpforms-container-full .wpforms-form button[type=submit] {
+    color:#ffffff!important;
+}
+
+.wpforms-confirmation-container-full {
+    color: #000000!important;
+    background: #ffffff!important;
+    margin-top: 24px!important;
+}
+
+/* Smartphones (portrait and landscape) italic text in testimonials */
+@media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
+    body em {
+        font-size: 20px;
+        line-height: 24px;
+    }
+    
+/* Smartphones (portrait and landscape) toggle box font size */
+    div[data-style=minimal] .toggle h3 a {
+        font-size: 20px!important;
+        line-height: 26px!important;
+        padding: 20px 70px 20px 0px;
+    }
+}
+
+/* iPhone 6+, 7+, 8+ italic text in testimonials */
+@media only screen and (min-device-width: 414px) and (max-device-height: 736px) and (-webkit-device-pixel-ratio: 2){
+    body em {
+        font-size: 20px;
+        line-height: 24px;
+    }
+}
+
+/* iPads (portrait and landscape) testimonials */
+@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) {
+    body em {
+        font-size: 24px;
+        line-height: 28px;
+    }
+}
+
+/* Embeded pricing table */
+#dtc thead th,
+#dtc tfoot th {
+    background-color: #0099D0;
+    font-family: ttnorms-bold;
+    color: #ffffff;
+}
+
+/* Smartphones (portrait and landscape) ----------- */
+@media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
+
+    #dtc thead th,
+    #dtc tfoot th {
+        font-size: 18px;
+    }
+
+}
+
+/* iPads (portrait and landscape) ----------- */
+@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) {
+
+    #dtc thead th,
+    #dtc tfoot th {
+        font-size: 20px;
+    }
+
+}
+
+#dtc tbody td {
+    font-family: athelas-regular;
+    font-size: 16px;
+    color: #51626F;
+}
+
+#dtc .column-5 {
+    text-align: right;
+}
+
+#dtc .column-4 {
+    text-align: right;
+}
+
+#dtc .column-3 {
+    text-align: right;
+}
+
+#dtc .column-2 {
+    text-align: right;
+}
+
+/* Additional CSS */
+#dtc_wrapper{
+    padding-left:15px;
+    padding-right:15px;
+}
+#dtc-wrapper > .row:nth-child(2) .col-sm-12{
+    flex:0 0 100%;
+    max-width: none;
+    width:auto;
+}
+table.dataTable{
+    width:100% !important;
+    line-height:1.2;
+}
+body{
+    background-color:#ffffff;
+}
+body #app{
+    font-family: athelas-regular;
+}
+div.dataTables_wrapper div.dataTables_length label,
+body #app .py-4 #dtc_filter label,
+div.dataTables_wrapper div.dataTables_info{
+    font-weight:400;
+    font-size:20px;
+    color:#676767;
+}
+body #app .py-4 .custom-select-sm {
+    border: none!important;
+    line-height: 22px;
+    color: #555;
+    background-color: #fff;
+    box-shadow: 0 1px 2px rgba(0,0,0,.16)!important;
+    -webkit-box-shadow: 0 1px 2px rgba(0,0,0,.16)!important;
+    transition: all .2s linear;
+    -webkit-transition: all .2s linear;
+    display: inline;
+    margin: 2px;
+    width: auto;
+    border-radius:4px;
+    height:auto;
+    font-family: 'Open Sans';
+}
+body #app .py-4 #dtc_filter input{
+    display: inline;
+    margin: 2px;
+    width: auto;
+    background-color: rgba(0,0,0,.04);
+    border-radius: 4px;
+    border: 2px solid rgba(0,0,0,0);
+    padding: 10px;
+    font-size: 14px;
+    font-family: inherit;
+    line-height: 24px;
+    color: #555;
+    transition: all .2s ease;
+    -webkit-transition: all .2s ease;
+    height:auto;
+}
+#dtc thead th{
+    font-family: ttnorms-bold;
+    font-weight: 700;
+    /*font-family: 'Open Sans';*/
+    /*font-family: athelas-regular;*/
+    vertical-align: top;
+    font-size: 14px;
+    line-height:1.2;
+}
+#dtc tbody tr.odd td{
+    background-color:#ffffff;
+}
+#dtc tbody tr.even td{
+    background-color:#f9f9f9;
+}
+div.dataTables_wrapper div.dataTables_paginate ul.pagination{
+    padding-top: 0.85em;
+}
+.page-item.disabled .page-link,
+.page-item:last-child .page-link {
+    font-size: 18px;
+}
+table.dataTable.dtr-inline.collapsed>tbody>tr[role="row"]>td:first-child:before, table.dataTable.dtr-inline.collapsed>tbody>tr[role="row"]>th:first-child:before {
+    background-color: #0099d0!important;
+}
+
+table.dataTable.dtr-inline.collapsed>tbody>tr.parent>td:first-child:before, table.dataTable.dtr-inline.collapsed>tbody>tr.parent>th:first-child:before {
+    background-color: #d33333!important;
+}
+
+#calculator .dataTables_paginate li{
+    list-style:none;
+}
+
+#calculator .page-item {
+    display: inline-block;
+}
+#calculator table {
+    line-height:1.2;
+}
+
+#calculator a.page-link {
+    position: relative;
+    display: block;
+    padding: 0.5rem 0.75rem;
+    margin-left: -1px;
+    line-height: 1.25;
+    color: #3490dc;
+    background-color: #fff;
+    border: 1px solid #dee2e6;
+    text-decoration: none;
+    font-size:18px;
+}
+
+#calculator .page-item.disabled .page-link,
+#calculator .page-item.disabled .page-link:hover{
+    color: #999999 !important;
+    pointer-events: none;
+    cursor: auto;
+    background-color: #fff;
+    border-color: #dee2e6;
+}
+#calculator .page-item .page-link:hover {
+    color: #3490dc !important;
+}
+#calculator .page-item:first-child .page-link {
+    border-top-left-radius: 0.25rem;
+    border-bottom-left-radius: 0.25rem;
+}
+#calculator .page-item:last-child .page-link {
+    border-top-right-radius: 0.25rem;
+    border-bottom-right-radius: 0.25rem;
+}
+#calculator .paging_simple .paginate_button.next:after,
+#calculator .paging_simple .paginate_button.previous:before{
+    content:' ';
+    width:0px;
+    height:0px;
+    display:none;
+}
+#calculator .dataTables_paginate.paging_simple {
+    padding: 0;
+}
+
+#calculator input[type=text] {
+    padding: 0;
+}
+/* Embeded pricing table ends */
